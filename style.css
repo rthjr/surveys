@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    padding: 5rem;
+}
+
+.title{
+    width: auto !important;
+    height: auto !important;
+    text-align: center;
+    padding: .5rem;
+    
+}
+
+.title h3{
+    
+    font-weight: bold;
+}
+
+.title button {
+    width: 50% !important;
+    padding: .5rem;
+    border-radius: 1rem;
+    background-color: black;
+    font-weight: bold;
+    color: white; 
+    border: none; 
+}
+
+.title button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title button:hover {
+    background-color: gray;
+    color: black;
+}
+
+.title button:hover a {
+    color: black; 
+}

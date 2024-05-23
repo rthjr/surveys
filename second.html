@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Click Example</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+    <section>
+        <div class="container cen-con d-flex justify-content-center flex-column align-items-center">
+            <h1>SURVEYS</h1>
+            <div class="col-md-12 title">
+                <h3>What is Your Learning Preference?</h3>
+            </div>
+            <div class="container">
+                <div class="col-md-12 title ">
+                    <button type="button" onclick="selectOption(1)"><a href="#">Physical</a></button>
+                </div>
+                <div class="col-md-12 title ">
+                    <button type="button" onclick="selectOption(2)"><a href="#">Video</a></button>
+                </div>
+                <div class="col-md-12 title ">
+                    <button type="button" onclick="selectOption(3)"><a href="#">Read/Write/Practice Exercise</a></button>
+                </div>
+                <div class="col-md-12 title ">
+                    <button type="button" onclick="selectOption(4)"><a href="#">Project Base Learning</a></button>
+                </div>
+                <div class="row title s">
+                    <div class="col-md-6 ar">
+                        <button type="button" onclick="resetOptions()">Reset</button>
+                    </div>
+                    <div class="col-md-6 al">
+                        <button type="button">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 title">
+                <h6>you can select up to all</h6>
+            </div>
+        </div>
+    </section>
+    <script src="js.js"></script>
+</body>
+</html>
